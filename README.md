@@ -1,4 +1,6 @@
 AStar
 =====
 
-A simple self explaining A* code tutorial
+A simple A* tutorial
+
+The code itself is easy to understand and commented where needed.
