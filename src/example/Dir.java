@@ -2,7 +2,6 @@ package example;
 
 import core.Integer2;
 
-
 public enum Dir {
 	
 	RIGHT("right", 1, 0),

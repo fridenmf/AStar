@@ -9,6 +9,9 @@ import java.util.Set;
 import core.Integer2;
 import core.Path;
 
+/**
+ * @author fridenmf
+ */
 public class PathImpl extends Path<Integer, Dir, PathImpl> {
 	
 	private Collection<Dir> steps = null;

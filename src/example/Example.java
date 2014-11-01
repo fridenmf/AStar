@@ -6,6 +6,13 @@ import java.util.List;
 import core.AStar;
 import core.Integer2;
 
+/**
+ * @author fridenmf
+ * 
+ * Example file with an implementation of Path, and an example with an very big
+ * board, to point out the superiority of an heuristic based approached over a
+ * naive one. 
+ */
 public class Example {
 
 	public static void main(String[] args) {
