@@ -11,6 +11,13 @@ import core.Path;
 
 /**
  * @author fridenmf
+ * 
+ * This implementation of a path has a starting position and a target.
+ * The target is a position to reach in as few steps as possible.
+ * 
+ * This implementation also prevents that old objects that are unused
+ * gets garbage collected and slows execution. This class recycles them 
+ * instead and puts them to use.
  */
 public class PathImpl extends Path<Integer, Dir, PathImpl> {
 	
